@@ -69,7 +69,7 @@ Golang using gin framework - Online Store
   - This project is built to support online product store
   - Step to use:
   1. Install all images in /deploy/docker-compose.yml and running all services: ```docker compose up```
-  2. Go to: ```http://localhost:8080``` with username ```root``` and create ```online_store``` database
+  2. Go to: ```http://localhost:8080``` with username/password ```root/123qweA@``` and create ```online_store``` database
   3. Run: ```go run ./data/migrate.go``` to init tables and data
   4. Run current product project: ``` go run main.go ```
   5. Use curl to check for working:
